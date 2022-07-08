@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='트리구현_1차원배열'/>
+        <page name='트리구현2_2차원배열'/>
+        <page name='트리구현3_구조체'/>
+    </pages>
+</playground>
