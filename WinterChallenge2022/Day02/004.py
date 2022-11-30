@@ -22,6 +22,11 @@ for row in range(1, N+1):
 print(sum_matrix)
 
 # 2차원 배열의 구간합
+# 점화식 S(X1,Y1)~S(X2,Y2) = S(X2,Y2) - S(X2, Y1 - 1) - S(X1 - 1, Y2) + S(X1 - 1, Y1 - 1)
+for query in [query1, query2, query3]:
+    x1, y1, x2, y2 = list(map(int, query.split(" ")))
+    print(sum_matrix[x2][y2] - sum_matrix[x1-1][y2] - sum_matrix[x2][y1-1] + sum_matrix[x1-1][y1-1])
+
 
 
 
