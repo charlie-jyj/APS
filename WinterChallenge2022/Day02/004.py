@@ -21,5 +21,7 @@ for row in range(1, N+1):
 
 print(sum_matrix)
 
+# 2차원 배열의 구간합
+
 
 
